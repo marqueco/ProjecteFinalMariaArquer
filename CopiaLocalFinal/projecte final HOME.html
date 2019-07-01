@@ -3,16 +3,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <script type="text/javascript" src="enCode.js"></script>
-
+<script type="text/javascript" src="deCode.js"></script>
 <title>El missatge secret</title>
 </head>
 <body>
 <script> 
 var inputVector = [928, 1151, 1374, 828, 1032, 1236, 840, 1056, 1272];
 var inputMatrix = [[928, 1151, 1374], [828, 1032, 1236], [840, 1056, 1272]];
-var encodeMatrix1 = [[3,2,4],[1,7,9],[0,0,9]];
+var encodeMatrix01 = [[3,2,4],[1,7,9],[0,0,9]];
+var matriuCodif = [[3935,9913,26437],[3516,8880,23724],[3576,9072,24312]];
+var decodeMatrix01 = [[-0.75,0.5,-0.25],[0.5,0,-0.5],[0.75,-0.5,1.25]];
+var matriuFinal01 = [[3935,9913,26437],[3516,8880,23724],[3576,9072,24312]];
 
-document.write(enCode(inputMatrix,encodeMatrix1));
+document.write(enCode(inputMatrix,encodeMatrix01));
 </script>
 
 
