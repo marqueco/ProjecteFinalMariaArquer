@@ -2,6 +2,10 @@
  * 
  */
 
+// Obtenim la matriu de descodificació.
+// Autora: Maria Arquer
+// Paràmetres: retorna la matriu formatejada en 3x3.
+
 function getD01 () {
 	var matriuDecod = [];
 	matriuDecod = [[-0.75,0.5,-0.25], [0.5,0,-0.5], [0.75,-0.5,1.25]];
