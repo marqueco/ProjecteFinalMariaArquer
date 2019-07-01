@@ -2,6 +2,10 @@
  * 
  */
 
+// Obtenim la matriu per codificar.
+// Autora: Maria Arquer
+// Paràmetres: retorna la matriu formatejada en 3x3.
+
 function getC01 () {
 	//var matriuCod = [][];
 	var matriuCod = [[3,2,4],[1,7,9],[0,0,9]];
