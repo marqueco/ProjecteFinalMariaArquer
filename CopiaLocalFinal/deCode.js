@@ -2,7 +2,7 @@
  * 
  */
 
-function deCode(matriuCodif, decodeMatrix01) {
+function deCode(matriuCodif,decodeMatrix01) {
 	var matriuCodif = matriu3;
 	var decodeMatrix01 = matriu4;
 	var n = 3;
